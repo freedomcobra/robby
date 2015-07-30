@@ -13,8 +13,6 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<!-- Lightbox css -->
-	<link href="css/lightbox.css" rel="stylesheet" type="text/css">
 	<!-- Remember to compile these CSS files -->
 	<link href="css/newstyle.css" type="text/css" rel="stylesheet">
 	<title>Robert Gividen</title>
@@ -65,7 +63,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="assets/portfolio/de8.png" alt="Event Flier"/>
+					<img src="assets/portfolio/dE8.png" alt="Event Flier"/>
 					<div class="carousel-caption">
 						<h3>Double Eve - 2013</h3>
 						<p>An Event flier designed for an annual party. I focused on balance and color using Adobe Illustrator.</p>
@@ -93,10 +91,10 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="assets/portfolio/de7.png" alt="Event Banner"/>
+					<img src="assets/portfolio/dE7.png" alt="Event Banner"/>
 					<div class="carousel-caption">
 						<h3>Double Eve 8</h3>
-						<p>Yeah, dog. You better believe I put another double eve ad on here.</p>
+						<p>Website banner using Adobe Illustrator for an annual party.</p>
 					</div>
 				</div>
 				<div class="item">
@@ -189,7 +187,7 @@
 			<div id="form-main">
 				<div id="form-div">
 
-					<form name ="form" class="form" id="fomr1" onsubmit="return validate()">
+					<form name ="form" class="form" id="fomr1" onsubmit="return validate()" action="/webformmailer.php" method="post">
 
 						<p class="name">
 							<input name="name" type="text" class="feedback-input" placeholder="Name" id="name"/>
@@ -200,7 +198,7 @@
 						</p>
 
 						<p class="text">
-							<textarea name="text" class="feedback-input" id="comment" placeholder="Comment"></textarea>
+							<textarea name="comment" class="feedback-input" id="comment" placeholder="Comment"></textarea>
 						</p>
 
 						<div class="submit">
@@ -216,11 +214,10 @@
 		</footer>
 	</div>
 
-	<!-- Lightbox jQuery Bootstrap and JS -->
+	<!-- jQuery Bootstrap and JS -->
 	 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
 	 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	 <script type="text/javascript" src="js/form.js"></script>
+	 <script type="text/javascript" src="script/form.js"></script>
 </body>
 
 </html>
